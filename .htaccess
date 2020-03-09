@@ -1,4 +1,13 @@
-Options All -Indexes 
+<IfModule mod_headers.c>
+	<FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css)$">
+		Header set Access-Control-Allow-Origin "*"
+	</FilesMatch>
+	Header set X-Frame-Options "ALLOW-FROM https://gaming.stream-universe.id"
+</IfModule>
+
+
+Options All -Indexes
+Options -Multiviews
 
 <Files ~".(xml|css|jpe?g|png|gif|js|webfonts|fonts)$">
 	Allow from all
