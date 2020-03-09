@@ -1,5 +1,5 @@
 Options All -Indexes 
-<Files ~".(xml|css|jpe?g|png|gif|js)$">
+<Files ~".(xml|css|jpe?g|png|gif|js|ttf|woff|woff2)$">
 	Allow from all
 </Files>
 
