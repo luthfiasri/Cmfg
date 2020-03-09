@@ -1,4 +1,6 @@
 Options All -Indexes 
-
+<Files ~".(xml|css|jpe?g|png|gif|js)$">
+	Allow from all
+</Files>
 
 Redirect http://localhost/Github/stream.id/
