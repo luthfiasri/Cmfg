@@ -3,6 +3,9 @@
 		Header set Access-Control-Allow-Origin "*"
 	</FilesMatch>
 	Header set X-Frame-Options "ALLOW-FROM https://gaming.stream-universe.id"
+	Header set X-Frame-Options "ALLOW-FROM https://portal.gaming.stream-universe.id"
+	#Header set X-Frame-Options "ALLOW-FROM http://localhost/Github/stream.id"
+	#Header set X-Frame-Options "ALLOW-FROM http://localhost/Github/portal_stream.id"
 </IfModule>
 
 
