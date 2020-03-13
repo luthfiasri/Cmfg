@@ -49,6 +49,7 @@
 	var $slick_team_tournaments_carousel = $('.js-team-tournaments-carousel');
 	var $slick_player_news_carousel = $('.js-posts-carousel');
 	var $slick_player_achievements_carousel = $('.js-alc-achievements-carousel');
+	var $slick_player_achievements_carousel2 = $('.js-alc-achievements-carousel2');
 	var $slick_hero_slider = $('.hero-slider');
 	var $slick_hero_slider_football = $('.posts--slider-top-news');
 	var $slick_slider_var_width = $('.posts--slider-var-width');
@@ -993,6 +994,20 @@
 					autoplaySpeed: 5000,
 					rows: 0,
 					appendArrows: $('.js-alc-achievements-carousel-header')
+				});
+			}
+
+			// Achievement Carousel 2
+			if ( $slick_player_achievements_carousel2.exists() ) {
+
+				$slick_player_achievements_carousel2.slick({
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					autoplay: true,
+					autoplaySpeed: 5000,
+					rows: 0,
+					appendArrows: $('.js-alc-achievements-carousel-header2')
 				});
 			}
 

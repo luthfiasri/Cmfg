@@ -6491,12 +6491,12 @@ div.cs-skin-border li.cs-focus span {
 }
 
 .alc-icon--circle {
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .alc-icon--xl {
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
 }
 
 .alc-icon--xl .df-icon {
@@ -15360,9 +15360,9 @@ ul.posts:not(.post-grid) {
 
 .widget-player__photo {
   position: absolute;
-  left: 0;
-  top: 0;
-  max-width: 50%;
+  left: 5%;
+  top: 8%;
+  max-width: 25%;
   z-index: 4;
 }
 
@@ -27229,6 +27229,10 @@ td.team-leader__avg {
   max-width: 50%;
   position: relative;
   z-index: 2;
+}
+
+.main-news-banner--img-left:hover .main-news-banner__img {
+  box-shadow: 0 0 10px #43e643, 0 0 40px #43e643, 0 0 80px #43e643;
 }
 
 .main-news-banner--img-left .main-news-banner__img::before {
